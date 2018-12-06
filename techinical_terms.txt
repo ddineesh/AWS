@@ -1,0 +1,11 @@
+Terms:
+
+IAM- Identity Access Managment
+MFA- Multifactor Factor Authenticatoin
+EC2- Elastic Compute Cloud
+EBS- Elastic Block Storage
+S3- Simple Storage Service
+RDS- Relational Database Service
+CORS-Cross Orgin Resources Sharing
+S3-IA( infrequest accessed)
+WAF-Web Application Firewall

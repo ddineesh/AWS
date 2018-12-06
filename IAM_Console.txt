@@ -1,0 +1,9 @@
+Amazon console link:
+
+https://ddineesh.signin.aws.amazon.com/console
+
+
+
+RDS Console:
+
+dineshrds.cospbuosxicl.us-east-2.rds.amazonaws.com

@@ -1,0 +1,42 @@
+Steps to connect EC2 instance through SSH
+
+step 1: connect the ec2 instance with the IP provided ( You can get the IP from EC2 instance)
+
+step 2: Once you login, sudo su ( so that you will become super user)
+
+Step 3: yum update -y ( Execute it to get the updates from the latest patches)
+
+Step 4: next step you need to install the apache server into your just created linux machine in cloud
+
+for that execute the below command
+
+yum install httpd -y
+
+the above command will install apache server into your unix server
+Step 5:we need to start the apache server we just installed in above step
+
+for that execute the below command
+
+service httpd start
+
+above command will start the apache server
+
+Step 6: we need to make sure whenever the ec2 instance comes up along with our apache server also need come up which we don't need to start every single time.
+by the executing the below, it automatically does for us.
+
+chkconfig httpd on
+
+Step 7: Below command will ensure the running status of apache server:
+
+service httpd status
+
+Step 8: Go to root directory of the webservice for creating/viewing the files.
+
+cd /var/www/html
+
+ls -lrt
+
+Step 9: ec2 has in build editor for creating the html files, etc...
+to lunch that enter the below command
+
+nano index.html
