@@ -1,0 +1,22 @@
+- No Sql DB
+- 0 value latency
+- supports both key value pait and documents
+- JSON, HTML, XML are supported documents
+- Two types of primary key 
+ - Partition Key
+ - Composite Key( Partition Key + sort Key)
+-Two Consistency model
+  - Strongly Consitent( immediate reflected in all 3 regions)
+  - Eventually Consistent( it take upto 1 second to reflected)
+- Acces can be controlled by IAM
+-Two types of indexes
+	-Local Secondary Index ( created while creating table)
+	-Global Secondary Index( anytime,while creation of table or any time)
+
+Elastic Cache:
+	- Memcached
+	- Redis 
+Two startegies:
+	- lazzy loading- loads whenever the data is requested
+	-lazzy loading + TTL
+	-Write through
