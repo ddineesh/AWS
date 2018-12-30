@@ -1,0 +1,7 @@
+Lamba Supported Languages:
+
+Node.js
+C#
+Java
+Python
+Go

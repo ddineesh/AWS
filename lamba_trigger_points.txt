@@ -1,0 +1,15 @@
+AWS Lamba Trigger points:
+
+API Gateway
+AWS Iot
+Alexa Skills kit
+Alexa Smart Home
+Cloud Front
+Cloud Watch Events
+CodeComit
+Cognito Sync Trigger
+DynamoDB
+Colud Watch Logs
+Kinesis
+S3
+SNS

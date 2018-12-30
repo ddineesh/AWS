@@ -1,0 +1,16 @@
+X-Ray supported languages:
+
+Java
+Go
+Python
+Node.js
+.net
+Ruby
+
+Integrates with other AWS services:
+
+AWS Lambda
+AWS Elastic Compute Cloud
+Elastic Load Balancer
+AWS API Gateway
+AWS Elastic Beanstalk	
