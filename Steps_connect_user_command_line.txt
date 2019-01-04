@@ -1,0 +1,12 @@
+rcRh6F+qC2eyHobh7t6MHM7BRYzPMbPv8wZE08Xo
+AKIAJFXVFNJRFWKSIAOQ
+
+Steps To users login to command line
+
+Step 1: you have to configure the user, execute the below command
+
+aws configure
+
+it will ask you the below details
+
+AWS Access ID, AWS Access key , Default Region and output format

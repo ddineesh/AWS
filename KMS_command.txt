@@ -1,0 +1,9 @@
+aws kms encrypt --key-id d2a7d619-e534-4b3a-9666-3ce930a8c625 --plaintext fileb://secret.txt --output text --query CiphertextBlob | base64 --decode > encryptedsecret.txt
+
+aws kms decrypt --ciphertext-blob fileb://encryptedsecret.txt --output text --query Plaintext | base64 --decode > decryptedsecret.txt
+
+aws kms re-encrypt --destination-key-id d2a7d619-e534-4b3a-9666-3ce930a8c625 --ciphertext-blob fileb://encryptedsecret.txt | base64 > newencryption.txt
+
+If you want to see newencryption.txt w/o base64 - cat newencryption.txt | base64 --decode
+
+aws kms encrypt enable-key-rotation --key-id d2a7d619-e534-4b3a-9666-3ce930a8c625

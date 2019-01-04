@@ -1,0 +1,27 @@
+
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html
+
+Cloud Formation:
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+
+Deploying Lambda:
+
+https://docs.aws.amazon.com/lambda/latest/dg/deploying-lambda-apps.html
+
+SAM
+
+https://github.com/awslabs/serverless-application-model
+
+
+VPC Security:
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html
+
+IAM id:
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html
+
+Server Side Encryption:
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html

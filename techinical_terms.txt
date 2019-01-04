@@ -1,4 +1,4 @@
-Technical Terms:
+Terms:
 
 IAM- Identity Access Managment
 MFA- Multifactor Factor Authenticatoin
@@ -9,4 +9,3 @@ RDS- Relational Database Service
 CORS-Cross Orgin Resources Sharing
 S3-IA( infrequest accessed)
 WAF-Web Application Firewall
-EMR- Elastic Map Reduce
