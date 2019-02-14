@@ -1,0 +1,8 @@
+SQS two types
+- SQS standard type  ( default)
+-FIFO queue ( but limited 300 transactions per second)
+- its pulled based system
+- messages are 256 kb in size 
+- objects can be stayed in SQS from  1 mintue to 14 days default is 4 days
+-SQS visiability can be 12 hrs
+-its distributed queue system

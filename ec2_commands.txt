@@ -1,0 +1,3 @@
+--EC2 sample comand for dry-run
+
+aws ec2 run-instances --dry-run --image-id ami-01e3b8c3a51e88954 --instance-type t2.micro
